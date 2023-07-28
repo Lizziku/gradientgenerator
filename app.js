@@ -40,5 +40,5 @@ background-image: ${linearGradient};
 copy.addEventListener('click', () => {
     textArea.select();
     navigator.clipboard.writeText(textArea.value);
-    alert('გრადაციის კოდი წარმატებიტ დაკოპირდა')
+    // alert('გრადაციის კოდი წარმატებიტ დაკოპირდა')
 });
